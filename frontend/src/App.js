@@ -1,9 +1,9 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
 function App() {
 	return (
 		<div>
-			<header className="App-header">
-				<h1>Images Gallery</h1>
-			</header>
+			<Header title="Images gallery" />
 		</div>
 	);
 }
