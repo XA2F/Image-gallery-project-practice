@@ -8,12 +8,11 @@ const Search = ({ word, setWord, handleSubmit }) => {
 					<Form onSubmit={handleSubmit}>
 						<Row>
 							<Col xs={9}>
-								<Form.Control 
-								type="text"
-								value={word}
-								onChange={(e) => setWord(e.target.value)}
-								placeholder="Search for movies, TV shows or people" 
-
+								<Form.Control
+									type="text"
+									value={word}
+									onChange={(e) => setWord(e.target.value)}
+									placeholder="Search for movies, TV shows or people"
 								/>
 							</Col>
 							<Col>
