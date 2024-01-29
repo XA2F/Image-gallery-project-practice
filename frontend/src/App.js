@@ -31,8 +31,8 @@ const App = () => {
 
 	const handleSearchSubmit = (e) => {
 		if (e) e.preventDefault();
-		setPage(1); // Reset page to 1 for a new search
-		setImages([]); // Clear existing images for a new search
+		setPage(1); 
+		setImages([]); 
 		fetchImages();
 	};
 
